@@ -10,5 +10,4 @@ services:
       - type: volume
         source: ./user_data
         target: /app/user_data
-volumes:
-  db-data:
+        
