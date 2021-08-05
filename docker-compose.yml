@@ -8,6 +8,6 @@ services:
     env_file: .env # add a WALLET_PK environment variable with your private key in that file
     volumes:
       - type: volume
-        source: ./user_data
+        source: user_data
         target: /app/user_data
         
