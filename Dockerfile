@@ -53,5 +53,5 @@ ENV PYTHONUNBUFFERED=1 \
 
 COPY --from=build-deps --chown=pancaketrade:pancaketrade /app .
 
-ENTRYPOINT [ "trade" ]
+ENTRYPOINT [ "local" ]
 CMD [ "user_data/config.yml" ]
